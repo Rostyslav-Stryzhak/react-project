@@ -1,0 +1,62 @@
+.contacts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    background-image: url('../Components/metallicaC.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 50px 20px;
+    background-attachment: fixed;
+}
+
+.contacts-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contacts-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+
+.contacts-details {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: white;
+}
+
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+
+.contact-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white; 
+}
+
+
+.contact-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: white;
+}
